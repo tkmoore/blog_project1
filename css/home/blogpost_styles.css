@@ -1,0 +1,12 @@
+.post {
+    background-color: lightblue;
+    padding: 15px;
+    color: mediumseagreen;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.post img {
+    height: 60px;
+    width:100px;
+}

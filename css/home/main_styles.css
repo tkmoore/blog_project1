@@ -1,0 +1,50 @@
+@import url('blogpost_styles.css');
+@import url('nav_styles.css');
+@import url('sidebar_styles.css');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffff8;
+    display: grid;
+    grid-template-columns: 300px 20px;
+    grid-template-rows: 100px 400px 25px;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd"
+    "main main main main main main sd sd"
+    "ft ft ft ft ft ft ft ft";
+    height: 100vh;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+#header{
+    background-color: #006400;
+    color: white;
+    padding: 10px 0;
+    grid-area: hd;
+    padding: 10px;
+    font-family: "Trirong", serif;
+    font-size: 20px;
+    text-shadow: 3px 3px 3px #ababab;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    grid-area: ft;
+    padding: 0px;
+    font-family: "Trirong", serif;
+    font-size: 10px;
+}
+
+#content {
+    padding: 10px;
+    grid-area: main;
+    overflow-y: scroll;
+    background-color: lightblue;
+}
