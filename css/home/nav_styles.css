@@ -3,7 +3,6 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    position: relative;
 }
 
 nav ul li {
@@ -11,7 +10,7 @@ nav ul li {
 }
 
 nav button {
-    background-color: darkblue;
+    background-color: darkgoldenrod;
 }
 
 nav a {

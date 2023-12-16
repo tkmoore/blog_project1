@@ -3,7 +3,7 @@
     padding: 15px;
     color: mediumseagreen;
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 1rem; /* 15px */
 }
 
 .post img {
