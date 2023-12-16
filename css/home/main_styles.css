@@ -1,3 +1,4 @@
+/* Separated how style sheets to different elements of the page */
 @import url('blogpost_styles.css');
 @import url('nav_styles.css');
 @import url('sidebar_styles.css');
@@ -71,6 +72,7 @@ body {
     background-color: lightblue;
 }
 
+/* Responsive logic for screen size */
 @media screen and (max-width: 550px) {
     body {
         grid-template-columns: 1fr;

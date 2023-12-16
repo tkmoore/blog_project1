@@ -1,0 +1,19 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav button {
+    background-color: darkgoldenrod;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
