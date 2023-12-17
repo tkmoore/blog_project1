@@ -20,15 +20,24 @@
                 <li><button><a href="index.html">Cancel</a></button></li>
             </ul>
         </nav>
+        <div class="card">
+            <!-- Profile picture -->
+            <img src="./assets/images/img_avatar.png" alt="Avatar" style="width:100%">
+            <div class="container">
+              <h4><b>John Doe</b></h4>
+            </div>
+        </div>
     </header>
     <main>
         <!-- Create post form -->
         <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
             <label for="title">Title:</label><br>
             <input type="text" id="title" name="title"><br>
             <label for="content">Content:</label><br>
             <textarea id="content" name="content"></textarea><br>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Share">
         </form>
     </main>
     <footer>
