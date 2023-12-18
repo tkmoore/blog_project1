@@ -85,7 +85,7 @@ body {
         display: none; /* No side bar, just post feed on small screens */
     }
 
-    #header, #footer, .post, nav ul li {
+    #header, .post, nav ul li {
         font-size: 1rem; /* Make fonts smaller */
     }
 }

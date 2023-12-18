@@ -1,0 +1,29 @@
+.social-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 120px; /* Adjust the width as needed */
+}
+
+.social-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px; /* Width of the button */
+    height: 30px; /* Height of the button */
+    border-radius: 4px;
+    font-size: 20px; /* Size of the emoji/logo */
+    text-decoration: none;
+    color: white;
+}
+
+.twitter {
+    background-color: #55acee;
+}
+
+.instagram {
+    background-color: #e4405f;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
